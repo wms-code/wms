@@ -40,10 +40,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- /.login-logo -->
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
-    <p class="login-box-msg"><?php echo validation_errors(); ?></p>
-    <form action="<?php echo base_url('login/auth'); ?>" method="post">
+    <p class="login-box-msg"><?php echo $message;?></p>
+    <form action="" method="post">
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" name="email" value="" id="email"  placeholder="Email">
+        <input type="text" class="form-control" name="identity" value="" id="identity"  placeholder="Email or Mobile">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">

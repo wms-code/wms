@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-$config['base_url'] = 'http://localhost/HostManage/Manage';
+$config['base_url'] = 'http://localhost/wms';
 
  
 $config['index_page'] = '';
